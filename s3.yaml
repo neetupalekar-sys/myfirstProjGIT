@@ -1,0 +1,12 @@
+import boto3
+import json
+
+# Initialize S3 resource
+s3 = boto3.resource('s3')
+
+# Define your JSON data
+json_data = {
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York"
+}
